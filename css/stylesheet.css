@@ -1,0 +1,240 @@
+
+	@font-face {
+		font-family: 'Harmonia Sans';
+		src: url('https://fonts.shopifycdn.com/harmonia_sans/harmoniasans_n6.dd3d6084d29e4754e80fe6aa1c0e37f511474ffa.woff2?h1=bGlseXBpY2h1c3RvcmUuY29t&hmac=9b50a410c0861747161509b0bf24da425261a256d3d5836621300ea63133ef40') format('woff')
+	}
+
+	html {
+		font-family: "Harmonia Sans";
+		margin: 0px;
+		font-size: .8vw;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.bgC {
+		font-weight: bold;
+		background: linear-gradient( to right, #c72020 0%, #c72020 100%);
+		background-position: 0 100%;
+		background-repeat: repeat-y;
+		background-size: 0% 4%;
+		color: #c72020;
+		text-decoration: none;
+		padding-left: 1%;
+		padding-right: 1%;
+		transition: background-size .2s;
+	}
+
+	.bgC:hover {
+		background-size: 100% 1px;
+		color: White;
+	}
+
+	body {
+		margin: 0px;
+	}
+
+	html,
+	body {
+		max-width: 100%;
+		overflow-x: hidden;
+		scroll-behavior: smooth;
+	}
+
+	.cover {
+		width: 100%;
+		object-fit: cover;
+		object-position: 50% 50%;
+		height: 60%;
+	}
+
+	.navbar {
+		position: fixed;
+		width: 100%;
+		top: 0px;
+		z-index: 50;
+		text-align: center;
+		padding-top: 2px;
+		background-color: white;
+		text-transform: uppercase;
+		transition: all 0.3s ease;
+	}
+
+	html:not([data-scroll='0']) {
+		body {
+			padding-top: 3em;
+		}
+		.navbar {
+			position: fixed;
+			top: 0;
+			background-color: #fff;
+			box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+		}
+		.top-left {
+			top: 16px;
+			left: 16px;
+		}
+	}
+
+	.navbar {
+		text-decoration: none;
+		transition: all 0.3s ease;
+	}
+
+	.navbar a:hover {
+		color: darkgray;
+		transition: all 0.3s ease;
+	}
+
+	.navbar ul li {
+		display: inline-block;
+		margin: 5px;
+	}
+
+	.parallax {
+		line-height: 20px;
+		color: white;
+		min-height: 70%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: black;
+		/*opacity: 0.65;*/
+	}
+
+	.parallax img {
+		position: relative;
+		transform: translate(-50%, 50%);
+		top: 50%;
+		left: 50%;
+		height: 17%;
+	}
+
+
+	/* Float four columns side by side */
+
+	.column {
+		float: left;
+		width: 25%;
+		padding: 0 1%;
+	}
+
+
+	/* Remove extra left and right margins, due to padding in columns */
+
+	.row {
+		margin: 0 -5px;
+		width: 100%;
+		padding: 0 10%;
+		position: relative;
+	}
+
+
+	/* Clear floats after the columns */
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+
+	/* Style the counter cards */
+
+	.card {
+		font-size: 100%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		/* this adds the "card" effect */
+		padding: 10%;
+		text-align: center;
+		background-color: lightpink;
+		height: 55%;
+	}
+
+
+	/* Responsive columns - one column layout (vertical) on small screens */
+
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+
+	.seperator {
+		width: 100px;
+		height: 2px;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%, 0);
+		background-color: white;
+		margin-bottom: 20px;
+	}
+
+	.black {
+		background-color: black;
+	}
+
+	.left {
+		transform: translate(0, 0);
+		left: 0%;
+	}
+
+	.sevene {
+		width: 90px;
+	}
+
+	.long {
+		width: 130px;
+	}
+
+	.shop-object {
+		display: inline-block;
+		width: 20%;
+		margin: 0.1%;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	.shop-object img {
+		border-radius: 2%;
+		max-width: 85%;
+		clip-path: url("img/preview.webp");
+		background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	}
+
+	.shop-object p {
+		margin: 0px;
+		font-weight: bold;
+	}
+
+	.shop-object a {
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		color: #010101;
+	}
+
+	.shop-object a:hover {
+		color: gray;
+	}
+
+	.hover-gray:hover {
+		opacity: 0.4;
+		background-color: #fff;
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	.soldoutImg {
+		opacity: 0.4;
+		background-color: #fff;
+	}
+
+	.hover-gray {
+		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	.soldoutText p {
+		color: gray;
+	}
