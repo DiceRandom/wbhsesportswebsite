@@ -115,6 +115,7 @@
 	}
 
 
+
 	/* Float four columns side by side */
 
 	.column {
@@ -231,6 +232,13 @@
 		transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 
+	.shop{
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+	}
+
 	.soldoutImg {
 		opacity: 0.4;
 		background-color: #fff;
@@ -243,3 +251,11 @@
 	.soldoutText p {
 		color: gray;
 	}
+
+		.start .body .title {
+        font-size: 4rem;
+        font-family: 'Poppins',sans-serif;
+    }
+    .start .body .subtitle {
+        font-family: 'Sen',sans-serif;
+    }
