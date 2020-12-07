@@ -62,7 +62,7 @@
       },
       {
         title: "6pm Valorant Stream",
-        start: "2020-12-1"
+        start: "2020-12-10"
       },
       {
         title: "3pm Club Meeting",
