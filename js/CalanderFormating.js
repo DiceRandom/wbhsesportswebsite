@@ -29,52 +29,26 @@
         start: dateFormat
       },
       {
-        title: "5pm League",
-        start: "2020-11-28"
-      },
-      {
-        title: "8pm Minecraft Bingo",
-        start: "2020-11-29"
-      },
-      {
-        title: "3pm Club Meeting",
-        start: "2020-12-03"
-      },
-      {
-        title: "5pm League",
-        start: "2020-12-03"
-      },
-      {
-        title: "4pm Roblox",
-        start: "2020-12-05"
-      },
-      {
-        title: "7pm TF2",
-        start: "2020-12-05"
-      },
-      {
-        title: "5pm League",
-        start: "2020-12-06"
-      },
-      {
-        title: "5pm Smash",
-        start: "2020-12-08"
-      },
-      {
-        title: "6pm Valorant Stream",
-        start: "2020-12-10"
-      },
-      {
-        title: "3pm Club Meeting",
-        start: "2020-12-10"
-      }
-      ,
-      {
-        title: "3pm Club Meeting",
+        title: "League Tonight",
         start: "2020-12-17"
-      }
-
-
+      },
+      {
+        title: "Austins Birthday Bash",
+        start: "2020-12-19"
+      },
+      {
+        title: "Art Stream Comp",
+        start: "2020-12-20"
+      },
+      {
+        title: "5PM Scribbl.io",
+        start: "2020-12-23"
+      },
+      {
+        title: "Community Night",
+        start: "2020-12-26"
+      },
+     
     ]
   });
 
