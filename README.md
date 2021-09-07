@@ -1,3 +1,3 @@
 # wbhsesportswebsite
-WBHS E-Sports Website
-wbhsesports.org
+WBHS eSports Website
+https://wbhsesports.org
